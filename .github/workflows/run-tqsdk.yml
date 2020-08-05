@@ -20,6 +20,7 @@ jobs:
       uses: actions/checkout@v2
       with:
         repository: shinnytech/tqsdk-python-private
+        ref: add_cythonize
         token: ${{ secrets.GH_PAT }}
 
     - name: Setup Node.js 12.x
